@@ -1,0 +1,14 @@
+<h2>HEROES</h2>
+
+<ul class="items">
+    <li *ngFor="let hero of heroes$ | async"
+        [class.selected]="hero.id === selectedId">
+        <a [routerLink]="['/heroes', hero.id]">
+            <span class="badge">{{ hero.id }}</span>{{ hero.name }}
+        </a>
+    </li>
+</ul>
+
+<button routerLink="/" class="bg-green hover:bg-green-dark p-1 rounded">
+    Go Home
+</button>

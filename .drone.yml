@@ -1,0 +1,6 @@
+pipeline:
+  frontend:
+    image: node:8.3
+    commands:
+      - npm install -q --no-color --no-progress
+      - npm run prod
