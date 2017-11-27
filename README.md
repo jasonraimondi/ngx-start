@@ -1,4 +1,9 @@
-[![Build Status](https://ci.jasonraimondi.com/api/badges/jason/webpack-typescript/status.svg)](https://ci.jasonraimondi.com/jason/webpack-typescript)
+[![Build Status](https://ci.jasonraimondi.com/api/badges/jason/ngx-starter/status.svg)](https://ci.jasonraimondi.com/jason/ngx-starter)
 
-# Typescript Tailwind
+# NGX Starter
+
+Includes:
+- Angular 
+- Firebase
+- Webpack
 
