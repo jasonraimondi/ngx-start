@@ -1,6 +1,8 @@
 pipeline:
   frontend:
-    image: node:8.3
+    image: node:8
     commands:
+      - cp config/firebase.sample.js config/firebase.js
       - npm install -q --no-color --no-progress
+      - npm run dev
       - npm run prod
